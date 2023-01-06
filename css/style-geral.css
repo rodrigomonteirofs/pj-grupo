@@ -1,0 +1,88 @@
+main{
+    background-image: linear-gradient(45deg, #502DE6,#00C8BB 80%);
+        
+    width: 100%;
+    height: 100vh;
+}
+
+#container{
+    margin: 0 auto;
+    padding: 20px;
+
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.mensagem{
+    margin-top: 30px;    
+}
+
+.mensagem p{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+    font-weight: bold;
+}
+
+.mensagem span:nth-child(1){
+   font-size: 70pt;
+}
+
+.mensagem span:last-child{
+    font-size: 70pt;
+ }
+
+ .aviso{
+    margin: 10px;
+ }
+ 
+ .aviso p{
+    font-size: 10pt;    
+}
+
+.acoes{
+    margin-top: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn input{
+    width: 330px;
+    height: 60px;
+
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+
+    color: black;
+}
+
+.link-cadastre{
+    margin-top: 20px;
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+}
+
+.link-cadastre a{
+    font-size: 16pt;
+}
+
+.btn2 input{
+    background-color:#09d6c9;
+
+    margin-top: 20px;
+
+    width: 200px;
+    height: 60px;
+
+    border:none;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+
+    font-weight: bold;
+}
