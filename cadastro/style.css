@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img/bg-principal.jpg);
+    background-repeat: no-repeat;
+
+}
+.form{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 700px;
+    height: 380px;
+    padding: 20px;
+}
+#button{
+    
+}
+#button:hover{
+    background-color: palevioletred;
+    cursor: pointer;
+}
+.title{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 767px){
+    .form{
+        background-color: black;
+        height: 100%;
+        width: 700px;
+    }
+}
+
+
