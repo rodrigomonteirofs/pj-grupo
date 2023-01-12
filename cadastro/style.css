@@ -18,18 +18,30 @@ body{
     color: white;
     padding-top: 250PX;
     width: 700px;
-    height: 380px;
+    height: 420px;
     padding: 20px;
     margin: 100px;
 }
+#button{
+    background-color: black;
+}
 #button:hover{
-    background-color: palevioletred;
+    background-color: rgb(140, 143, 138);
+    cursor: pointer;
+}
+a{
+    color: white;
     cursor: pointer;
 }
 .title{
     color: white;
     font-family: sans-serif;
     font-size: 20px;
+}
+img{
+    background-repeat: no-repeat;
+    width: 350px;
+
 }
 
 @media (max-width: 767px){
