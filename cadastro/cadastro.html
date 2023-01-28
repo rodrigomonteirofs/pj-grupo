@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRE-SE</title>
+
+
+    <link rel="shortcut icon" href="img/logo2.fw.png" type="image/x-icon">
+
+
+    <!--Link CSS-->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Link Bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="form">
+
+        <div class="title">
+            <h1>CADASTRE-SE</h1>
+        </div>
+
+        <hr>
+        <form action="cadastro.php" method="post" class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="validationCustom01" name="nome" value="" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="validationCustom02" name="senha" value="" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">E-mail</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend" style="height: 100%;">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" name="email" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">Cidade</label>
+                <input type="text" class="form-control" id="validationCustom03" name="cidade" required>
+                <div class="invalid-feedback">
+                        Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Estado</label>
+                <select class="form-select" id="validationCustom04" name="estado" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>CEARÁ</option>
+                    <option>RIO DE JANEIRO</option>
+                    <option>SÃO PAULO</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid state.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">CPF</label>
+                <input type="number" class="form-control" id="validationCustom05" name="cpf" required>
+                <div class="invalid-feedback">
+                    Please provide a valid zip.
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit" id="button">Enviar cadastro</button>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit" id="button"><a href="../index.html">Voltar a página principal</a></button>
+            </div>
+        </form>
+    </div>   
+
+    <!--Link Bootstrap CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+
+
+</body>
+</html>
